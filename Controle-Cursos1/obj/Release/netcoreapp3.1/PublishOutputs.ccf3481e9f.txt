@@ -1,4 +1,3 @@
-C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Release\netcoreapp3.1\PubTmp\Out\Controle-Cursos1.exe
 C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\site.css
 C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
 C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\site.js

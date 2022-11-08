@@ -8,11 +8,14 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\renat\\source\\repos\\Controle-Cursos1\\Controle-Cursos1\\Controle-Cursos1.csproj",
-        "projectName": "Controle-Cursos1",
+        "projectName": "controle-cursos1",
         "projectPath": "C:\\Users\\renat\\source\\repos\\Controle-Cursos1\\Controle-Cursos1\\Controle-Cursos1.csproj",
         "packagesPath": "C:\\Users\\renat\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\renat\\source\\repos\\Controle-Cursos1\\Controle-Cursos1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\renat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

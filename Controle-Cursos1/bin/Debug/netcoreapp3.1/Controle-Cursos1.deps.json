@@ -18,18 +18,18 @@
       "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "8.0",
-    "platform": "",
+    "platform": "AnyCPU",
     "allowUnsafe": false,
     "warningsAsErrors": false,
     "optimize": false,
     "keyFile": "",
-    "emitEntryPoint": true,
+    "emitEntryPoint": false,
     "xmlDoc": false,
     "debugType": "portable"
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Controle-Cursos1/1.0.0": {
+      "controle-cursos1/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.2",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
@@ -306,10 +306,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Controle-Cursos1.dll": {}
+          "controle-cursos1.dll": {}
         },
         "compile": {
-          "Controle-Cursos1.dll": {}
+          "controle-cursos1.dll": {}
         }
       },
       "BCrypt.Net-Next/4.0.2": {
@@ -3942,7 +3942,7 @@
     }
   },
   "libraries": {
-    "Controle-Cursos1/1.0.0": {
+    "controle-cursos1/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
