@@ -1,6 +1,6 @@
 using System;
 
-namespace Controle_Cursos1.Models
+namespace Controle.cursos.Models
 {
     public class ErrorViewModel
     {

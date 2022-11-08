@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>controle_cursos1</RootNamespace>
+    <RootNamespace>Controle.cursos</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
     <UserSecretsId>2fc8aef8-191a-4309-a9f7-72682dafbeed</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <ApplicationIcon />
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <StartupObject />
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <AssemblyName>controle-cursos1</AssemblyName>

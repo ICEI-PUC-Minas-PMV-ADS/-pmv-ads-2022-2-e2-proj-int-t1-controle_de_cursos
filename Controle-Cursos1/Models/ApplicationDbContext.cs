@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Controle_Cursos1.Models
+namespace Controle.cursos.Models
 {
     public class ApplicationDbContext : DbContext
     {

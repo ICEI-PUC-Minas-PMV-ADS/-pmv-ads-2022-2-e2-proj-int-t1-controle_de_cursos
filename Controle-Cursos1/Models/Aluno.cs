@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Controle_Cursos1.Models
+namespace Controle.cursos.Models
 {
     [Table("Alunos")]
     public class Aluno

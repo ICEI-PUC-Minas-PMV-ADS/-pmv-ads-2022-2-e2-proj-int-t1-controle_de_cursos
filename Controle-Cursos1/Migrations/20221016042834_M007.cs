@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Controle_Cursos1.Migrations
+namespace Controle.cursos.Migrations
 {
     public partial class M007 : Migration
     {

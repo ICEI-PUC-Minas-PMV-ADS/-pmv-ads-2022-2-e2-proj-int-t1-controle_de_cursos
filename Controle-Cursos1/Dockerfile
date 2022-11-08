@@ -14,15 +14,15 @@
 #FROM microsoft/dotnet:2.2-aspnetcore:runtime
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR ./source/repos/Controle-Cursos1/Controle-Cursos1
-COPY ["./Controle-Cursos1.csproj", "Controle-Cursos1/"]
-RUN dotnet restore "Controle-Cursos1/Controle-Cursos1.csproj"
+COPY ["./Controle.Cursos.csproj", "Controle.Cursos/"]
+RUN dotnet restore "Controle.Cursos./Controle.Cursos.csproj"
 COPY . ./
 WORKDIR "./source/repos/Controle-Cursos1/Controle-Cursos1"
-RUN dotnet build "Controle-Cursos1.csproj" -c Release -o /app/build
+RUN dotnet build "Controle.Cursos.csproj" -c Release -o /app/build
 
 # ESTÁGIO 3
 FROM build AS publish
-RUN dotnet publish "Controle-Cursos1.csproj" -c Release -o /app/publish
+RUN dotnet publish "Controle.Cursos.csproj" -c Release -o /app/publish
 
 # ESTÁGIO 4
 FROM base AS final
@@ -33,5 +33,5 @@ WORKDIR /app
 COPY ./dist .
 #COPY --from=publish /app/publish .
 #COPY --from=build-env /app/out .
-#ENTRYPOINT ["dotnet", "controle-cursos1.dll"]
-CMD ASPNETCORE_URLS="http://*:$PORT" dotnet controle-cursos1.dll
+#ENTRYPOINT ["dotnet", "controle.cursos.dll"]
+CMD ASPNETCORE_URLS="http://*:$PORT" dotnet controle.cursos.dll

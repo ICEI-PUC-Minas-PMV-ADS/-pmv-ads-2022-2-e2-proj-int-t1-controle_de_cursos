@@ -1,4 +1,4 @@
-﻿using Controle_Cursos1.Models;
+﻿using Controle.cursos.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Controle_Cursos1.Controllers
+namespace Controle.cursos.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,3 +1,4 @@
+using Controle.Cursos;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -7,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Controle_Cursos1
+namespace Controle.cursos
 {
     public class Program
     {

@@ -330,3 +330,5 @@ C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\bin\Debug\netcorea
 C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\bin\Debug\netcoreapp3.1\dist\dist\dist\controle-cursos1.runtimeconfig.json
 C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Debug\netcoreapp3.1\staticwebassets\controle-cursos1.StaticWebAssets.xml
 C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Debug\netcoreapp3.1\scopedcss\bundle\controle-cursos1.styles.css
+C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Debug\netcoreapp3.1\controle-cursos1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\renat\source\repos\Controle-Cursos1\Controle-Cursos1\obj\Debug\netcoreapp3.1\controle-cursos1.MvcApplicationPartsAssemblyInfo.cache

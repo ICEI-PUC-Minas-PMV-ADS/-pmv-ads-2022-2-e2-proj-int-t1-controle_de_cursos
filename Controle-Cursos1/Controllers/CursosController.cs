@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Controle_Cursos1.Models;
+using Controle.cursos.Models;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Controle_Cursos1.Controllers
+namespace Controle.cursos.Controllers
 {
     [Authorize]
     public class CursosController : Controller
